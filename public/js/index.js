@@ -32,3 +32,16 @@ window.onload = function(){
 
     container.style.display = 'block';
 }
+let logoDH = document.querySelector('.logoDH');
+let menu = document.querySelector('#menu');
+
+
+logoDH.addEventListener('click', () => {
+    menu.classList.toggle('mostrar');
+});
+
+menu.addEventListener('click', () => {
+    //setTimeout(() => {
+        menu.classList.remove('mostrar');
+    //}, 1000);
+});
