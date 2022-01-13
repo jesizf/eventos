@@ -40,8 +40,8 @@ logoDH.addEventListener('click', () => {
     menu.classList.toggle('mostrar');
 });
 
-menu.addEventListener('click', () => {
-    //setTimeout(() => {
-        menu.classList.remove('mostrar');
-    //}, 1000);
+menu.addEventListener('mouseout', () => {
+    setTimeout(() => {
+        menu.classList.remove('mostrar');},
+     1000);
 });

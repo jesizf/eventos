@@ -15,11 +15,11 @@ section.classList.add('fondoCRUD');
 h1.style.padding = '5px 0';
 
 h1.addEventListener('mouseover', () => {
-    h1.style.color = '#fff';
-    h1.style.backgroundColor = 'teal';
+    h1.style.color = 'red';
+    
 })
  
-let input = document.querySelector('#title');
+let input = document.querySelector('#titulo');
 //desafio paso2 
 input.addEventListener('keypress', () => {
     var estadoSecreto = 0;
